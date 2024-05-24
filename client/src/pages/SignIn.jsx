@@ -72,16 +72,16 @@ const SignIn = () => {
         />
         <button
           disabled={loading}
-          className="bg-blue-500 hover:bg-blue-700 text-white p-3 rounded-lg uppercase"
+          className="bg-blue-500 hover:bg-blue-700 text-white p-3 rounded-lg uppercase font-semibold"
         >
           {loading ? "Loading..." : "Sign In"}
         </button>
         <OAuth />
       </form>
       <div className="flex gap-2 mt-5">
-        <p> Don&apos;t have an account?</p>
+        <p className="font-semibold"> Don&apos;t have an account?</p>
         <Link to="/sign-up">
-          <span className="text-blue-400 underline">Sign up</span>
+          <span className="text-blue-400 underline font-semibold">Sign up</span>
         </Link>
       </div>
       {error && <p className="text-red-600">{error}</p>}
