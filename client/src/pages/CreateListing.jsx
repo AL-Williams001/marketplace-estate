@@ -137,11 +137,11 @@ const CreateListing = () => {
               accept="image/*"
               multiple
             />
-            <button className="p-3 text-white bg-green-600 rounded uppercase hover:bg-green-700 ">
+            <button className="p-3 text-white bg-green-600 rounded uppercase hover:bg-green-700 font-semibold">
               Upload
             </button>
           </div>
-          <button className="p-3 bg-blue-500 text-white rounded-lg uppercase hover:bg-blue-700 ">
+          <button className="p-3 bg-blue-500 text-white rounded-lg uppercase hover:bg-blue-700 font-semibold ">
             Create Listing
           </button>
         </div>
