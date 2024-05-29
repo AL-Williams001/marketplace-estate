@@ -141,7 +141,7 @@ const CreateListing = () => {
         },
         body: JSON.stringify({
           ...formData,
-          userRef: currentUser._id,
+          user: currentUser._id,
         }),
       });
       const data = await res.json();
@@ -281,7 +281,7 @@ const CreateListing = () => {
                 required
                 className="p-3 border border-gray-400 rounded-lg"
                 onChange={handleChange}
-                value={formData.bedrooms}
+                value={formData.bathrooms}
               />
               <p className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-700 via-purple-500 to-pink-500 font-semibold">
                 Bathrooms
