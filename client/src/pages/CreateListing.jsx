@@ -311,7 +311,7 @@ const CreateListing = () => {
                   type="number"
                   id="discountedPrice"
                   min="0"
-                  max="95000000"
+                  max="9500000"
                   required
                   className="p-3 border border-gray-400 rounded-lg"
                   onChange={handleChange}
