@@ -6,7 +6,7 @@ const ListingCard = ({ listing }) => {
     <div className="bg-white shadow-md hover:shadow-lg transition-shadow overflow-hidden rounded-lg w-full sm:w-[330px]">
       <Link
         to={
-          `/listing/${listing.id}` ||
+          `/listing/${listing._id}` ||
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXZMc0geK8v5aVgAZhawfdrWwrSkYBA7QaOQ&s"
         }
       >
