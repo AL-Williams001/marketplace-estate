@@ -6,7 +6,7 @@ import SwiperCore from "swiper";
 import "swiper/css/bundle";
 import ListingCard from "../components/ListingCard";
 
-export default function Home() {
+const Home = () => {
   const [offerListings, setOfferListings] = useState([]);
   const [saleListings, setSaleListings] = useState([]);
   const [rentListings, setRentListings] = useState([]);
@@ -46,7 +46,8 @@ export default function Home() {
           ease
         </h1>
         <p className="text-gray-500 text-xs sm:text-sm font-semibold">
-          AL&apos;s Estate is your ideal destination to find your next home.
+          Williams&apos;s Estate is your ideal destination to find your next
+          home.
           <br />
           Explore our extensive range of properties.
         </p>
@@ -139,4 +140,6 @@ export default function Home() {
       </div>
     </div>
   );
-}
+};
+
+export default Home;
